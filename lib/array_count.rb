@@ -1,9 +1,7 @@
 def count_strings(array)
   
-  array.count {|string| string.any?(String)}
+  array.count {|string| string == String}
     
-  
-  end
   
   end
   
