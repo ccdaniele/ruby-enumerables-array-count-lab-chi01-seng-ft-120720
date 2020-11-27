@@ -2,7 +2,7 @@ def count_strings(array)
   
   array.count do | string | 
     string.any?(String)
-    array_of_string << array[string]
+    
   
   end
   
