@@ -1,7 +1,11 @@
 def count_strings(array)
   
-  array,count do | string | 
-    string.any?(string)
+  array.count do | string | 
+    string.any?(String)
+    array_of_string << array[string]
+  
+  end
+  
   end
   
   # Return the total number of strings in the provided array using the count enumerable
